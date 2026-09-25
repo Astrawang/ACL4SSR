@@ -45,6 +45,13 @@ external-controller: '0.0.0.0:9090'
 # RESTful API 的口令 (可选)
 # secret: ""
 
+# tun
+tun:
+  route-exclude-address:
+    - 223.5.5.5/32
+    - 8.8.8.8/32
+    - 114.114.114.114/32
+
 # 实验性功能
 # experimental:
   # ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
